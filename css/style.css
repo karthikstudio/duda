@@ -609,3 +609,16 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .story-align p{
 	text-align: left;
 }
+
+.logo-custom{
+	display: inline-block;
+	-moz-transform: scale(-1, 1);
+	-webkit-transform: scale(-1, 1);
+	-o-transform: scale(-1, 1);
+	-ms-transform: scale(-1, 1);
+	transform: scale(-1, 1);
+}
+
+.logo-font span{
+	font-family: 'Kaushan Script', cursive;
+}
