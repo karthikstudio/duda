@@ -162,9 +162,8 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	/*background: url(../img/intro-bg.jpg);*/
-	background: url(../img/intro-bg.jpg) no-repeat center center fixed;
-	/*background: url(../img/intro-bg.jpg) no-repeat right bottom scroll;*/
+	/*background: url(../img/intro-bg.jpg) no-repeat center center fixed;*/
+	background: url(../img/intro-bg.jpg) no-repeat right bottom scroll;
 	background-color: #F6F6F6;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -174,7 +173,6 @@ hr {
 #intro .intro-body {
 	display: table-cell;
 	vertical-align: middle;
-	float:none;
 }
 .intro-body p{
 	font-size: 25px !important;
@@ -593,7 +591,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 @media (max-width: 640px) {
 	#intro .intro-body H1 {
-		font-size: 3em;
+		font-size: 5em;
 	}
 }
 
@@ -602,6 +600,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	.custom-list2{
 		margin-bottom: 25px;
 	}
+}
+
+@media (max-width: 1000px) {
+
 }
 
 .story-align p{
@@ -619,16 +621,4 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 .logo-font span{
 	font-family: 'Kaushan Script', cursive;
-}
-
-@media screen and (min-width: 991px) {
-	.title-pos{
-		margin-top: 20%;
-	}
-}
-
-@media screen and (max-width: 990px) {
-	.title-pos{
-		margin-bottom: 60px;
-	}
 }

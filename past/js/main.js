@@ -6,7 +6,7 @@ function main() {
 
 	// Hide .navbar first
 	$(".navbar").hide();
-
+	
 	// Fade in .navbar
 	$(function () {
 		$(window).scroll(function () {
@@ -18,19 +18,19 @@ function main() {
 			}
 		});
 
-
+	
 	});
-
+	
 	// Preloader */
 	  	$(window).load(function() {
 
-   	// will first fade out the loading animation
-    	$("#status").fadeOut("slow");
+   	// will first fade out the loading animation 
+    	$("#status").fadeOut("slow"); 
 
-    	// will fade out the whole DIV that covers the website.
-    	$("#preloader").delay(500).fadeOut("slow").remove();
+    	// will fade out the whole DIV that covers the website. 
+    	$("#preloader").delay(500).fadeOut("slow").remove();      
 
-  	})
+  	}) 
 
    // Page scroll
   	$('a.page-scroll').click(function() {
@@ -56,23 +56,12 @@ function main() {
         }
     });
 
-    $('body').scrollspy({
+    $('body').scrollspy({ 
         target: '.navbar-default',
         offset: 80
     })
 
   	$(document).ready(function() {
-
-        //duda top image resize
-        $(window).resize(function() {
-            if($(window).width() <= 991 ) {
-               $('.duda-img').attr('src','img/'+'duda_s.png');
-            }
-            else if($(window).width() > 991 ) {
-               $('.duda-img').attr('src','img/'+'duda.png');
-            }
-        });
-
   	    $("#testimonial").owlCarousel({
         navigation : false, // Show next and prev buttons
         slideSpeed : 300,
@@ -109,14 +98,14 @@ function main() {
         });
 
     });
-
-
+	
+	
 
   // jQuery Parallax
   function initParallax() {
     $('#intro').parallax("100%", 0.3);
     $('#services').parallax("100%", 0.3);
-    $('#aboutimg').parallax("100%", 0.3);
+    $('#aboutimg').parallax("100%", 0.3);	
     $('#testimonials').parallax("100%", 0.1);
 
   }
@@ -125,7 +114,7 @@ function main() {
   	// Pretty Photo
 	$("a[rel^='prettyPhoto']").prettyPhoto({
 		social_tools: false
-	});
+	});	
 
 }());
 

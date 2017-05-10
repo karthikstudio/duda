@@ -162,8 +162,8 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	/*background: url(../img/intro-bg.jpg);*/
-	background: url(../img/intro-bg.jpg) no-repeat center center fixed;
+	background: url(../img/intro-bg.jpg);
+	/*background: url(../img/intro-bg.jpg) no-repeat center center fixed;*/
 	/*background: url(../img/intro-bg.jpg) no-repeat right bottom scroll;*/
 	background-color: #F6F6F6;
 	-webkit-background-size: cover;
@@ -593,7 +593,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 @media (max-width: 640px) {
 	#intro .intro-body H1 {
-		font-size: 3em;
+		font-size: 5em;
 	}
 }
 
@@ -625,10 +625,18 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	.title-pos{
 		margin-top: 20%;
 	}
+
+	/*.duda-img {
+      content:url("img/duda.png");
+    }*/
 }
 
 @media screen and (max-width: 990px) {
 	.title-pos{
 		margin-bottom: 60px;
 	}
+
+	/*.duda-img {
+      content:url("img/duda.png");
+    }*/
 }
